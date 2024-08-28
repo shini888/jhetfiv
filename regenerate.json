@@ -10,19 +10,112 @@
     {
       "id": "BBA-1.15.2",
       "name": "BBA (Minecraft 1.15.2)",
-      "description": "BBA Running Minecraft 1.15.2",
+      "description": "BBA Running Minecraft 1.15.2 (Fabric v0.16.3)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "50.20.207.86:25565",
       "minecraftVersion": "1.15.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": []
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1369300,
+            "MD5": "5af850610bb4a450d78a60e7240ce2fd",
+            "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.15.2-fabric-0.16.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "28c0afc6b92dfdf054f3fc12ccd2763d",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/versions/1.15.2-fabric-0.16.3/1.15.2-fabric-0.16.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494751,
+                "MD5": "4808c070bf19415a5cb4a0cb5e569b12",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.15.2",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 354863,
+                "MD5": "54d46597d27882c5e3b3235463b046d2",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/intermediary/1.15.2/intermediary-1.15.2.jar"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
