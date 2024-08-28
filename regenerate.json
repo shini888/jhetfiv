@@ -20,7 +20,7 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -203,6 +203,16 @@
             "size": 1318645,
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
             "MD5": "601f5c1d8b2b6e3c08a1216000099508"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.4-MC1.18.2@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139552,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/WI-Zoom-1.4-MC1.18.2.jar",
+            "MD5": "acaafe4069ac53ca9882157ec8b98bf0"
           }
         }
       ]
