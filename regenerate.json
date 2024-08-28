@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "BBA-1.15.2",
-      "name": "BBA (Minecraft 1.15.2)",
-      "description": "BBA Running Minecraft 1.15.2 (Fabric v0.16.3)",
+      "id": "BBA-1.18.2",
+      "name": "BBA (Minecraft 1.18.2)",
+      "description": "BBA Running Minecraft 1.18.2 (Fabric v0.16.3)",
       "icon": null,
       "version": "1.0.0",
       "address": "50.20.207.86:25565",
-      "minecraftVersion": "1.15.2",
+      "minecraftVersion": "1.18.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "1.15.2-fabric-0.16.3",
+              "id": "1.18.2-fabric-0.16.3",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "28c0afc6b92dfdf054f3fc12ccd2763d",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/versions/1.15.2-fabric-0.16.3/1.15.2-fabric-0.16.3.json"
+                "MD5": "65cad97b899d473e97c04aa860d8c111",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/versions/1.18.2-fabric-0.16.3/1.18.2-fabric-0.16.3.json"
               }
             },
             {
@@ -104,16 +104,106 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.15.2",
+              "id": "net.fabricmc:intermediary:1.18.2",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 354863,
-                "MD5": "54d46597d27882c5e3b3235463b046d2",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/intermediary/1.15.2/intermediary-1.15.2.jar"
+                "size": 481558,
+                "MD5": "d299d8bce389df3894884b6515b5894a",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar"
               }
             }
           ]
+        },
+        {
+          "id": "generated.fabricmod:bendy-lib:2.1.1@jar",
+          "name": "Bendy api",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 35380,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/bendy-lib-fabric-2.1.1.jar",
+            "MD5": "e88ced9a2d6c45e8503db67a7053faf5"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 869644,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/emotecraft-for-MC1.18.2-2.2.7-b.build.50-fabric.jar",
+            "MD5": "eaeb3e5d9286a19a5338f75bdf17ae53"
+          }
+        },
+        {
+          "id": "eu.pb4.entityviewdistance:entity-view-distance:1.0.0@jar",
+          "name": "Entity View Distance",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 275910,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/entity-view-distance-1.0.0.jar",
+            "MD5": "4cc40882fa67f76da27938452b0bbc39"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.77.0+1.18.2@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1472259,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/fabric-api-0.77.0+1.18.2.jar",
+            "MD5": "2e1e095a4f34b2d59296463b8dd217ab"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric:installer-1.0.1@jar",
+          "name": "Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 197876,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/fabric-installer-1.0.1.jar",
+            "MD5": "ae3b61867b3397ac509998a4640eae0f"
+          }
+        },
+        {
+          "id": "dev.kosmx.playerAnim:player-animator:1.0.2+1.18@jar",
+          "name": "Player Animator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 180905,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/player-animation-lib-fabric-1.0.2+1.18.jar",
+            "MD5": "645b5d0b6ec12e956c451e0ee9ec71eb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.6.3+mc1.18.2-build.88@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67831,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/reeses_sodium_options-1.6.3+mc1.18.2-build.88.jar",
+            "MD5": "02ebabf96f88f2feabbd37d4d8d52a22"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.18+mc1.18.2-build.98@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329818,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-extra-0.4.18+mc1.18.2-build.98.jar",
+            "MD5": "85e9ac4608159fe75b59518f18d75cc0"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.1+build.15@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1318645,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
+            "MD5": "601f5c1d8b2b6e3c08a1216000099508"
+          }
         }
       ]
     }
