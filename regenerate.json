@@ -204,6 +204,16 @@
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
             "MD5": "601f5c1d8b2b6e3c08a1216000099508"
           }
+        },
+        {
+          "id": "dev.isxander:zoomify:1.3.0@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 160407,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/Zoomify-1.3.0.jar",
+            "MD5": "db505dbbf7093f4e588836f9ed8605c3"
+          }
         }
       ]
     }
