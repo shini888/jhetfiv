@@ -443,13 +443,13 @@
           }
         },
         {
-          "id": "generated.library:OptiFine_1.18.2_HD_U_H6:0.0.0@jar",
-          "name": "OptiFine_1.18.2_HD_U_H6",
+          "id": "generated.library:OptiFine_1.18.2_HD_U_H6_MOD:0.0.0@jar",
+          "name": "OptiFine_1.18.2_HD_U_H6_MOD",
           "type": "Library",
           "artifact": {
-            "size": 6539012,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/libraries/OptiFine_1.18.2_HD_U_H6.jar",
-            "MD5": "06593a441b4ac1f05304d1ea9c4d0fbe"
+            "size": 6049486,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/libraries/OptiFine_1.18.2_HD_U_H6_MOD.jar",
+            "MD5": "3603e0ba6c19cdb64cc989811433a0e0"
           }
         }
       ]
