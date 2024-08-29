@@ -166,6 +166,26 @@
           }
         },
         {
+          "id": "generated.fabricmod:optifabric:1.13.16@jar",
+          "name": "OptiFabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 462712,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/optifabric-1.13.16.jar",
+            "MD5": "94178987cfac6f04d139deb2066523ef"
+          }
+        },
+        {
+          "id": "generated.fabricmod:optifine_1.18.2_hd_u_h9:0.0.0@jar",
+          "name": "OptiFine_1.18.2_HD_U_H9",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6725140,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/OptiFine_1.18.2_HD_U_H9.jar",
+            "MD5": "558caa51edcfe01d78aeb63dcdee04e6"
+          }
+        },
+        {
           "id": "dev.kosmx.playerAnim:player-animator:1.0.2+1.18@jar",
           "name": "Player Animator",
           "type": "FabricMod",
@@ -173,36 +193,6 @@
             "size": 180905,
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/player-animation-lib-fabric-1.0.2+1.18.jar",
             "MD5": "645b5d0b6ec12e956c451e0ee9ec71eb"
-          }
-        },
-        {
-          "id": "generated.fabricmod:reeses-sodium-options:1.6.3+mc1.18.2-build.88@jar",
-          "name": "Reese's Sodium Options",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 67831,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/reeses_sodium_options-1.6.3+mc1.18.2-build.88.jar",
-            "MD5": "02ebabf96f88f2feabbd37d4d8d52a22"
-          }
-        },
-        {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.18+mc1.18.2-build.98@jar",
-          "name": "Sodium Extra",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 329818,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-extra-0.4.18+mc1.18.2-build.98.jar",
-            "MD5": "85e9ac4608159fe75b59518f18d75cc0"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:sodium:0.4.1+build.15@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1318645,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
-            "MD5": "601f5c1d8b2b6e3c08a1216000099508"
           }
         },
         {
