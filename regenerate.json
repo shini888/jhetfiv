@@ -10,7 +10,7 @@
     {
       "id": "BBA-1.18.2",
       "name": "BBA (Minecraft 1.18.2)",
-      "description": "BBA Running Minecraft 1.18.2 (Fabric v0.16.3)",
+      "description": "BBA Running Minecraft 1.18.2 (Forge v40.2.21)",
       "icon": null,
       "version": "1.0.0",
       "address": "50.20.207.86:25565",
@@ -24,235 +24,432 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.16.3",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
+          "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.2.21",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
           "artifact": {
-            "size": 1369300,
-            "MD5": "5af850610bb4a450d78a60e7240ce2fd",
-            "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar"
+            "size": 7382,
+            "MD5": "5bc47a3da66dcab9f3860bb8c0383c51",
+            "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar"
           },
           "subModules": [
             {
-              "id": "1.18.2-fabric-0.16.3",
-              "name": "Fabric (version.json)",
+              "id": "1.18.2-40.2.21",
+              "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 2847,
-                "MD5": "65cad97b899d473e97c04aa860d8c111",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/versions/1.18.2-fabric-0.16.3/1.18.2-fabric-0.16.3.json"
+                "size": 15551,
+                "MD5": "d3ea6132baa1c87dcd859d485c7fc93c",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/versions/1.18.2-forge-40.2.21/1.18.2-forge-40.2.21.json"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
+              "id": "net.minecraftforge:fmlcore:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 111968,
+                "MD5": "13a23cd0c61325fb3369f8369d0a49b6",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16292,
+                "MD5": "cf6f36febc5194f0a9549d8d6faed066",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4987,
+                "MD5": "c4aca63bf7854c77240569fa794768ed",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2540054,
+                "MD5": "33239abc725afb237ad036043538627c",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4367198,
+                "MD5": "703656e85bb6af1eb5557e0b65bb7468",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 13796791,
+                "MD5": "49d0ce9681f0ffd3c5a177f6ad45c80b",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:1.0.8",
+              "name": "Minecraft Forge (securejarhandler)",
               "type": "Library",
               "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+                "size": 85028,
+                "MD5": "102e2b8d94eec8aca0da835d2d3a359e",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/cpw/mods/securejarhandler/1.0.8/securejarhandler-1.0.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
               }
             },
             {
-              "id": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
-              "name": "Fabric (sponge-mixin)",
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 1494751,
-                "MD5": "4808c070bf19415a5cb4a0cb5e569b12",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.18.2",
-              "name": "Fabric (intermediary)",
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 481558,
-                "MD5": "d299d8bce389df3894884b6515b5894a",
-                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar"
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 257596,
+                "MD5": "31a242ef4cfd6bb6051f2d2adbf592cd",
+                "url": "https://launcherjhettrc.web.app/HOST/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.2.21/fmlloader-1.18.2-40.2.21.jar"
               }
             }
           ]
         },
         {
-          "id": "io.github.foundationgames:animatica:0.5+1.18.2@jar",
-          "name": "Animatica",
-          "type": "FabricMod",
+          "id": "io.github.kosmx:bendylib:2.1.1@jar",
+          "name": "Bendy lib",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 74069,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/animatica-0.5+1.18.2.jar",
-            "MD5": "7e6d67c182595d5f08b141026611101b"
-          }
-        },
-        {
-          "id": "generated.fabricmod:bendy-lib:2.1.1@jar",
-          "name": "Bendy api",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 35380,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/bendy-lib-fabric-2.1.1.jar",
-            "MD5": "e88ced9a2d6c45e8503db67a7053faf5"
-          }
-        },
-        {
-          "id": "net.dorianpb:cem:0.7.1@jar",
-          "name": "Custom Entity Models",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1037407,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/cem-0.7.1.jar",
-            "MD5": "6c4924477296bd20ba7af0d68b81a83d"
-          }
-        },
-        {
-          "id": "shcm.shsupercm:citresewn:1.1.1+1.18.2@jar",
-          "name": "CIT Resewn",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 382120,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/CITResewn-1.1.1+1.18.2.jar",
-            "MD5": "6ca01e3b2201c7ae7b3282c405c8b4c0"
+            "size": 36623,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/forgemods/required/bendy-lib-forge-2.1.1.jar",
+            "MD5": "58989d5ae5bec172a564f704d1a254a3"
           }
         },
         {
           "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
           "name": "Emotecraft",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 869644,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/emotecraft-for-MC1.18.2-2.2.7-b.build.50-fabric.jar",
-            "MD5": "eaeb3e5d9286a19a5338f75bdf17ae53"
+            "size": 676761,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/forgemods/required/emotecraft-for-MC1.18.2-2.2.7-b.build.50-forge.jar",
+            "MD5": "f89d6650a0edb095edebdec3dd6f0641"
           }
         },
         {
-          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
-          "name": "Entity Texture Features",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 515143,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/entity_texture_features_fabric_1.18.2-6.0.1.jar",
-            "MD5": "3725ce432c99e277c8bd63cac8ae92a1"
-          }
-        },
-        {
-          "id": "eu.pb4.entityviewdistance:entity-view-distance:1.0.0@jar",
-          "name": "Entity View Distance",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 275910,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/entity-view-distance-1.0.0.jar",
-            "MD5": "4cc40882fa67f76da27938452b0bbc39"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.77.0+1.18.2@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1472259,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/fabric-api-0.77.0+1.18.2.jar",
-            "MD5": "2e1e095a4f34b2d59296463b8dd217ab"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric:installer-1.0.1@jar",
-          "name": "Fabric",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 197876,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/fabric-installer-1.0.1.jar",
-            "MD5": "ae3b61867b3397ac509998a4640eae0f"
-          }
-        },
-        {
-          "id": "dev.kosmx.playerAnim:player-animator:1.0.2+1.18@jar",
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2+1.18@jar",
           "name": "Player Animator",
-          "type": "FabricMod",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 180905,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/player-animation-lib-fabric-1.0.2+1.18.jar",
-            "MD5": "645b5d0b6ec12e956c451e0ee9ec71eb"
+            "size": 181336,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/forgemods/required/player-animation-lib-forge-1.0.2+1.18.jar",
+            "MD5": "33e51d8320f9d5d8e37bc7f9479d6a3e"
           }
         },
         {
-          "id": "generated.fabricmod:reeses-sodium-options:1.6.3+mc1.18.2-build.88@jar",
-          "name": "Reese's Sodium Options",
-          "type": "FabricMod",
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.5.6@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 67831,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/reeses_sodium_options-1.6.3+mc1.18.2-build.88.jar",
-            "MD5": "02ebabf96f88f2feabbd37d4d8d52a22"
-          }
-        },
-        {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.18+mc1.18.2-build.98@jar",
-          "name": "Sodium Extra",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 329818,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-extra-0.4.18+mc1.18.2-build.98.jar",
-            "MD5": "85e9ac4608159fe75b59518f18d75cc0"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:sodium:0.4.1+build.15@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1318645,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
-            "MD5": "601f5c1d8b2b6e3c08a1216000099508"
-          }
-        },
-        {
-          "id": "net.wurstclient.zoom:wi_zoom:1.4-MC1.18.2@jar",
-          "name": "WI Zoom",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 139552,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/WI-Zoom-1.4-MC1.18.2.jar",
-            "MD5": "acaafe4069ac53ca9882157ec8b98bf0"
+            "size": 1342466,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/forgemods/required/rubidium-0.5.6.jar",
+            "MD5": "8ff531d3619c39e9e059e400f63f035b"
           }
         }
       ]
