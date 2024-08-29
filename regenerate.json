@@ -443,13 +443,13 @@
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium.client:rubidium:0.5.6@jar",
-          "name": "Rubidium",
-          "type": "ForgeMod",
+          "id": "generated.library:OptiFine_1.18.2_HD_U_H6:0.0.0@jar",
+          "name": "OptiFine_1.18.2_HD_U_H6",
+          "type": "Library",
           "artifact": {
-            "size": 1342466,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/forgemods/required/rubidium-0.5.6.jar",
-            "MD5": "8ff531d3619c39e9e059e400f63f035b"
+            "size": 6539012,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/libraries/OptiFine_1.18.2_HD_U_H6.jar",
+            "MD5": "06593a441b4ac1f05304d1ea9c4d0fbe"
           }
         }
       ]
