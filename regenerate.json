@@ -176,16 +176,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:optifine_1.18.2_hd_u_h9:0.0.0@jar",
-          "name": "OptiFine_1.18.2_HD_U_H9",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 6725140,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/OptiFine_1.18.2_HD_U_H9.jar",
-            "MD5": "558caa51edcfe01d78aeb63dcdee04e6"
-          }
-        },
-        {
           "id": "dev.kosmx.playerAnim:player-animator:1.0.2+1.18@jar",
           "name": "Player Animator",
           "type": "FabricMod",
@@ -203,6 +193,16 @@
             "size": 139552,
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/WI-Zoom-1.4-MC1.18.2.jar",
             "MD5": "acaafe4069ac53ca9882157ec8b98bf0"
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.18.2_HD_U_H9:0.0.0@jar",
+          "name": "OptiFine_1.18.2_HD_U_H9",
+          "type": "Library",
+          "artifact": {
+            "size": 6725140,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/libraries/OptiFine_1.18.2_HD_U_H9.jar",
+            "MD5": "558caa51edcfe01d78aeb63dcdee04e6"
           }
         }
       ]
