@@ -116,6 +116,16 @@
           ]
         },
         {
+          "id": "io.github.foundationgames:animatica:0.5+1.18.2@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 74069,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/animatica-0.5+1.18.2.jar",
+            "MD5": "7e6d67c182595d5f08b141026611101b"
+          }
+        },
+        {
           "id": "generated.fabricmod:bendy-lib:2.1.1@jar",
           "name": "Bendy api",
           "type": "FabricMod",
@@ -126,6 +136,26 @@
           }
         },
         {
+          "id": "net.dorianpb:cem:0.7.1@jar",
+          "name": "Custom Entity Models",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1037407,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/cem-0.7.1.jar",
+            "MD5": "6c4924477296bd20ba7af0d68b81a83d"
+          }
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.1+1.18.2@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 382120,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/CITResewn-1.1.1+1.18.2.jar",
+            "MD5": "6ca01e3b2201c7ae7b3282c405c8b4c0"
+          }
+        },
+        {
           "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
           "name": "Emotecraft",
           "type": "FabricMod",
@@ -133,6 +163,16 @@
             "size": 869644,
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/emotecraft-for-MC1.18.2-2.2.7-b.build.50-fabric.jar",
             "MD5": "eaeb3e5d9286a19a5338f75bdf17ae53"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 515143,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/entity_texture_features_fabric_1.18.2-6.0.1.jar",
+            "MD5": "3725ce432c99e277c8bd63cac8ae92a1"
           }
         },
         {
@@ -166,16 +206,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:optifabric:1.13.16@jar",
-          "name": "OptiFabric",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 462712,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/optifabric-1.13.16.jar",
-            "MD5": "94178987cfac6f04d139deb2066523ef"
-          }
-        },
-        {
           "id": "dev.kosmx.playerAnim:player-animator:1.0.2+1.18@jar",
           "name": "Player Animator",
           "type": "FabricMod",
@@ -186,6 +216,36 @@
           }
         },
         {
+          "id": "generated.fabricmod:reeses-sodium-options:1.6.3+mc1.18.2-build.88@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67831,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/reeses_sodium_options-1.6.3+mc1.18.2-build.88.jar",
+            "MD5": "02ebabf96f88f2feabbd37d4d8d52a22"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.4.18+mc1.18.2-build.98@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329818,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-extra-0.4.18+mc1.18.2-build.98.jar",
+            "MD5": "85e9ac4608159fe75b59518f18d75cc0"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.1+build.15@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1318645,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
+            "MD5": "601f5c1d8b2b6e3c08a1216000099508"
+          }
+        },
+        {
           "id": "net.wurstclient.zoom:wi_zoom:1.4-MC1.18.2@jar",
           "name": "WI Zoom",
           "type": "FabricMod",
@@ -193,16 +253,6 @@
             "size": 139552,
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/fabricmods/required/WI-Zoom-1.4-MC1.18.2.jar",
             "MD5": "acaafe4069ac53ca9882157ec8b98bf0"
-          }
-        },
-        {
-          "id": "generated.library:OptiFine_1.18.2_HD_U_H9:0.0.0@jar",
-          "name": "OptiFine_1.18.2_HD_U_H9",
-          "type": "Library",
-          "artifact": {
-            "size": 6725140,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.18.2/libraries/OptiFine_1.18.2_HD_U_H9.jar",
-            "MD5": "558caa51edcfe01d78aeb63dcdee04e6"
           }
         }
       ]
