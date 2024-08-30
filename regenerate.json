@@ -116,33 +116,33 @@
           ]
         },
         {
-          "id": "generated.fabricmod:bendy-lib:2.1.1@jar",
+          "id": "io.github.kosmx.bendylib:bendy-lib:4.0.0@jar",
           "name": "Bendy api",
           "type": "FabricMod",
           "artifact": {
-            "size": 35380,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/bendy-lib-fabric-2.1.1.jar",
-            "MD5": "e88ced9a2d6c45e8503db67a7053faf5"
+            "size": 49297,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/bendy-lib-fabric-4.0.0.jar",
+            "MD5": "ceb8bba969ac5178cebbdcac6e9863be"
           }
         },
         {
-          "id": "shcm.shsupercm:citresewn:1.1.1+1.18.2@jar",
+          "id": "shcm.shsupercm:citresewn:1.1.5+1.20.1@jar",
           "name": "CIT Resewn",
           "type": "FabricMod",
           "artifact": {
-            "size": 382120,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/CITResewn-1.1.1+1.18.2.jar",
-            "MD5": "6ca01e3b2201c7ae7b3282c405c8b4c0"
+            "size": 391752,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/citresewn-1.1.5+1.20.1.jar",
+            "MD5": "d0d036a2aeff226687f369269524653d"
           }
         },
         {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:6.5.116@jar",
-          "name": "Cloth Config v6",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.118@jar",
+          "name": "Cloth Config v11",
           "type": "FabricMod",
           "artifact": {
-            "size": 1150071,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/cloth-config-6.5.116-fabric.jar",
-            "MD5": "9f75def24f006f1bd7b0ead3e57118e5"
+            "size": 1159192,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/cloth-config-11.1.118-fabric.jar",
+            "MD5": "eb13a834db10ee7e8c5e6a6d4b037fbd"
           }
         },
         {
@@ -150,49 +150,49 @@
           "name": "Emotecraft",
           "type": "FabricMod",
           "artifact": {
-            "size": 869644,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/emotecraft-for-MC1.18.2-2.2.7-b.build.50-fabric.jar",
-            "MD5": "eaeb3e5d9286a19a5338f75bdf17ae53"
+            "size": 873611,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar",
+            "MD5": "3a7abdac2462955c5a51af3cd14712ff"
           }
         },
         {
-          "id": "eu.pb4.entityviewdistance:entity-view-distance:1.0.0@jar",
+          "id": "eu.pb4.entityviewdistance:entity-view-distance:1.1.2+1.20@jar",
           "name": "Entity View Distance",
           "type": "FabricMod",
           "artifact": {
-            "size": 275910,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/entity-view-distance-1.0.0.jar",
-            "MD5": "4cc40882fa67f76da27938452b0bbc39"
+            "size": 245942,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/entity-view-distance-1.1.2+1.20.jar",
+            "MD5": "2fd416c564947f0bf790100ceec71e16"
           }
         },
         {
-          "id": "dev.tr7zw:entityculling:1.6.1-mc1.18.2@jar",
+          "id": "dev.tr7zw:entityculling:1.6.2-mc1.20.1@jar",
           "name": "EntityCulling-Fabric",
           "type": "FabricMod",
           "artifact": {
-            "size": 57098,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/entityculling-fabric-1.6.1-mc1.18.2.jar",
-            "MD5": "f50b90f2f27af6eff5d041b190456b5f"
+            "size": 59348,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/entityculling-fabric-1.6.2-mc1.20.1.jar",
+            "MD5": "29b1642d4e958fd88822e55410f70dfd"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.77.0+1.18.2@jar",
+          "id": "generated.fabricmod:fabric-api:0.83.0+1.20@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 1472259,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/fabric-api-0.77.0+1.18.2.jar",
-            "MD5": "2e1e095a4f34b2d59296463b8dd217ab"
+            "size": 1974627,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/fabric-api-0.83.0+1.20.jar",
+            "MD5": "9ecba65b9c5ed19a52982bee4a74003e"
           }
         },
         {
-          "id": "dev.tr7zw:notenoughanimations:1.7.5@jar",
+          "id": "dev.tr7zw:notenoughanimations:1.6.4@jar",
           "name": "NotEnoughAnimations",
           "type": "FabricMod",
           "artifact": {
-            "size": 426644,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/notenoughanimations-fabric-1.7.5-mc1.18.2.jar",
-            "MD5": "c991b7a02f74f526c927ab8109e590d1"
+            "size": 407579,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/notenoughanimations-fabric-1.6.4-mc1.20.jar",
+            "MD5": "06521491e14a918ffe014a574e0bec8e"
           }
         },
         {
@@ -206,13 +206,13 @@
           }
         },
         {
-          "id": "dev.kosmx.playerAnim:player-animator:1.0.2@jar",
+          "id": "dev.kosmx.playerAnim:player-animator:1.0.2-rc1+1.20@jar",
           "name": "Player Animator",
           "type": "FabricMod",
           "artifact": {
-            "size": 180871,
-            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/player-animation-lib-fabric-1.0.2.jar",
-            "MD5": "fa23bdc856493d347483d3ebd4837667"
+            "size": 181008,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+            "MD5": "03dfb09aabe5c2c8167568cd5c32666b"
           }
         }
       ]
