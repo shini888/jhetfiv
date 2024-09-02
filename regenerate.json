@@ -224,6 +224,17 @@
             "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/fabricmods/required/WI-Zoom-1.4-MC1.20.jar",
             "MD5": "c893d29f670cf742aedcdcc82f766bd6"
           }
+        },
+        {
+          "id": "pack.zip",
+          "name": "pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 72636694,
+            "url": "https://launcherjhettrc.web.app/HOST/servers/BBA-1.20/files/resourcepacks/pack.zip",
+            "MD5": "a1f183e9aa341cf1d583360a38476713",
+            "path": "resourcepacks/pack.zip"
+          }
         }
       ]
     }
